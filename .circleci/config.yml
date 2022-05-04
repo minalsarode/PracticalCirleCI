@@ -13,7 +13,7 @@ jobs:
       tag:"10.4"
 
     steps:
-      - checkout
+      -checkout
       -node/with-cache:
         steps:
           - run: npm install
